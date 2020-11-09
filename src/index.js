@@ -7,6 +7,6 @@ export {
   Slider as StyledSlider,
 } from './components/Slider/Slider.css';
 
-export SlideIndicator from './components/SlideIndicator';
-export Slide from './components/Slide';
-export Dots from './components/Dots';
+export { default as SlideIndicator } from './components/SlideIndicator';
+export { default as Slide } from './components/Slide';
+export { default as Dots } from './components/Dots';
